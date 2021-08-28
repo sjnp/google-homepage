@@ -9,41 +9,49 @@
     <title>Google</title>
 </head>
 <body>
-    <div class="parent">
-        <header>
+    <header>
+        <div class="left-header">
             <ul>
-                <div class="left-header">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li>
-                </div>
-                <div class="right-header">
-                    <li><a href="#"><input type="button" id="sign-in-btn" value="Sign In"></a></li>
-                    <li><a href="#"><span class="material-icons" id="google-apps">apps</span></a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a href="#">Gmail</a></li>
-                </div>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
             </ul>
-        </header>
-        <main>
-            <img src="googlelogo.png" alt="Google Logo">
-            <input type="text" id="search-box" name="search box" autofocus></input>
-            <input type="button" id="search-btn" value="Google Search">
-            <input type="button" id="lucky-btn" value="I'm feeling lucky">
-        </main>
-        <footer>
+        </div>
+        <div class="right-header">
             <ul>
-                <div class="left-footer">
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">How Search Works</a></li>
-                </div>
-                <div class="right-footer">
-                    <li><a href="#">Settings</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </div>
-           </ul>
-        </footer>
-    </div> 
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#"><span class="material-icons" id="google-apps">apps</span></a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+       </div>
+    </header>
+    <main>
+        <img src="googlelogo.png" alt="Google Logo">
+        <div class="search-box">
+            <span class="material-icons">search</span>
+            <input type="text" id="search-box" name="search box" autofocus></input>
+            <a href="#"><img src="googlemic.svg" alt="Google Microphone"></a>
+        </div>
+        <div class="group-btn">
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+    </main>
+    <footer>
+        <div class="left-footer">
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>   
+        </div>
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
