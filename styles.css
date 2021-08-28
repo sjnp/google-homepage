@@ -18,7 +18,7 @@ body {
 
 header {
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     padding: 0 2em;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ header a {
 main {
     padding-top: 8em;
     width: 100%;
-    height: 83vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +95,9 @@ main input:focus {
 main input:hover {
     box-shadow: 0 0 .5em hsl(0, 0%, 85%), 0 0 .5em hsl(0, 0%, 85%);
 }
+.search-box {
+    position: relative;
+}
 
 .search-box .material-icons {
     padding-top: .5em;
@@ -103,6 +106,28 @@ main input:hover {
     color: hsl(0, 0%, 60%);
 }
 
+.search-box img {
+    position: absolute;
+    max-width: 2em;
+    height: auto;
+    top: 1em;
+    right: 1em;
+}
+
+.group-btn {
+    display: flex;
+    width: 23em;
+    justify-content: space-evenly;
+}
+
+.group-btn button {
+    font-size: 1.1em;
+    padding: .8em 1em;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 45%);
+    border: none;
+    border-radius: .3em;
+}
 footer {
     background-color: hsl(0, 0%, 95%);
     width: 100%;
@@ -115,7 +140,7 @@ footer {
 
 footer a {
     font-size: 1.1em;
-    color: hsl(0, 0%, 25%);
+    color: hsl(0, 0%, 45%);
 }
 
 .left-footer ul {
